@@ -79,6 +79,7 @@ types, let's explore the format of our survey data. We'll be working with the
 same `surveys.csv` dataset that we've used in previous lessons.
 
 ```python
+import pandas as pd
 # note that pd.read_csv is used because we imported pandas as pd
 surveys_df = pd.read_csv("data/surveys.csv")
 ```
@@ -306,7 +307,7 @@ Next, let's drop all the rows that contain missing values. We will use the comma
 By default, dropna removes columns that contain missing data for even just one row.
 
 ```python
-df_na = df.dropna()
+df_na = surveys_df.dropna()
 
 ```
 
