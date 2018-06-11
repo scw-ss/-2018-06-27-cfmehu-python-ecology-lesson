@@ -228,6 +228,7 @@ joins exists in BOTH tables. An example of an inner join, adapted from [this
 page](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) is below:
 
 ![Inner join -- courtesy of codinghorror.com](http://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702708970c-pi.png)
+![Inner join -- courtesy of codinghorror.com](../fig/inner-join.png)
 
 The pandas function for performing joins is called `merge` and an Inner join is
 the default option:  
