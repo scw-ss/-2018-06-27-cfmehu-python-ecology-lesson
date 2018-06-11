@@ -306,7 +306,7 @@ Next, let's drop all the rows that contain missing values. We will use the comma
 By default, dropna removes columns that contain missing data for even just one row.
 
 ```python
-df_na = df.dropna()
+df_na = surveys_df.dropna()
 
 ```
 
