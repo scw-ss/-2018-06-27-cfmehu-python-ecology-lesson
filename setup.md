@@ -11,9 +11,13 @@ Data for this lesson is from the Portal Project Teaching Database -
 
 For this lesson, we will use eight files for the data. Download these files to your computer. Once you click on them they will be automatically downloaded to your default download directory.
 
-Get everything in a [single zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/datacarpentry/python-ecology-lesson/tree/gh-pages/data).  You'll need to unzip this file after downloading it.
+Alternatively you can clone a [git repository](https://github.com/scw-ss/2018-06-27-cfmehu-python-ecology-notebooks) with all the files we are going to need. You'll need to type the following in your command line
+```
+git clone https://github.com/scw-ss/2018-06-27-cfmehu-python-ecology-notebooks 2018-06-27-cfmehu-python-ecology
+```
+which will result in a new directory with all the notebooks and data files.
 
-Or download individual files:
+Alternatively, you can download individual files:
 
 - [surveys.csv](http://www.datacarpentry.org/python-ecology-lesson/data/surveys.csv)
 - [species.csv](http://www.datacarpentry.org/python-ecology-lesson/data/species.csv)
